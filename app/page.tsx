@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white p-4 md:p-8 max-w-4xl mx-auto">
       <header className="mb-8 text-center">
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">
-          알아서Farm 개인정보처리방침, 이용약관
+        <h1 className="text-4xl md:text-3xl font-bold text-gray-800 mb-6">
+          알아서Farm
         </h1>
 
         <div className="flex justify-center space-x-4 mb-6">
