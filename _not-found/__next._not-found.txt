@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
 2:I[9015,["https://daeeunlab.github.io/daeeun-farm-privacy-policy/_next/static/chunks/41da87dc9ae67d7f.js"],"default"]
 3:I[95166,["https://daeeunlab.github.io/daeeun-farm-privacy-policy/_next/static/chunks/41da87dc9ae67d7f.js"],"default"]
-0:{"buildId":"jUpoK5TabPqgg7i7GFHKg","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"JbEbLxKuIzhhaWuSOaexY","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
