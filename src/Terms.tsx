@@ -9,7 +9,7 @@ const Terms = () => {
       <div className="flex flex-col gap-2">
         <p className={"text-base text-neutral-800"}>
           이 약관은 주식회사 대은계전(이하 &quot;서비스 제공자&quot;)가 무료
-          서비스로 만든 모바일 기기용 아라서팜 앱(이하
+          서비스로 만든 모바일 기기용 알아서Farm 앱(이하
           &quot;애플리케이션&quot;)에 적용됩니다.
         </p>
         <p className={"text-base text-neutral-800"}>
@@ -98,6 +98,40 @@ const Terms = () => {
           사용자가 제안할 때 애플리케이션에 대한 업데이트를 항상 수락하는 것에
           동의합니다. 서비스 제공자는 또한 애플리케이션 제공을 중단하고 제공
           없이 언제든지 사용을 종료할 수 있습니다
+        </p>
+        <p className={"text-base text-neutral-800"}>
+          본 애플리케이션의 일부 기능은 하드웨어 센서, 컨트롤러, 구동기 등
+          물리적 기기와의 연동을 전제로 제공됩니다.
+        </p>
+
+        <p className={"text-base text-neutral-800"}>
+          기기 제어, 자동화 설정, 원격 관리 등 기기관련 기능을 이용하기 위해서는
+          서비스 제공자가 지정한 절차에 따라 기기 등록 및 설치가 완료되어야
+          합니다.
+        </p>
+
+        <p className={"text-base text-neutral-800"}>
+          기기 등록 및 설치는 서비스 제공자와의 별도 계약 또는 협의를 통해
+          진행되며, 자세한 내용은 주식회사 대은계전으로 문의해야 합니다.
+        </p>
+        <p className={"text-base text-neutral-800"}>
+          애플리케이션에서 제공되는 캘린더 기능(할 일 등록, 일지 작성 등) 중
+          일부 인공지능(LLM) 기반 기능은 제한적으로 무료 제공됩니다.
+        </p>
+
+        <p className={"text-base text-neutral-800"}>
+          해당 인공지능 기능은 계정당 최대 5회까지 무료로 이용할 수 있으며, 무료
+          이용 횟수를 초과한 이후에는 추가 이용이 제한될 수 있습니다.
+        </p>
+
+        <p className={"text-base text-neutral-800"}>
+          인공지능 기능을 무제한으로 이용하거나 추가 서비스 제공을 원하는 경우,
+          서비스 제공자인 주식회사 대은계전으로 별도 문의해야 합니다.
+        </p>
+
+        <p className={"text-base text-neutral-800"}>
+          * 주식회사 대은계전 Email : daeeunlab@gmail.com / Contact :
+          064-721-8446
         </p>
       </div>
     </div>

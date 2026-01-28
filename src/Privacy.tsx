@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Privacy = () => {
   return (
@@ -12,7 +13,7 @@ const Privacy = () => {
         </h4>
         <p className={"text-base text-neutral-800"}>
           이 개인정보 보호 정책은 주식회사 대은계전(이하 &quot;서비스
-          제공자&quot;)가 무료 서비스로 만든 모바일 기기용 아라서팜 앱(이하
+          제공자&quot;)가 무료 서비스로 만든 모바일 기기용 알아서Farm 앱(이하
           &quot;애플리케이션&quot;)에 적용됩니다. 이 서비스는 &quot;있는
           그대로&quot; 사용하기 위한 것입니다.
         </p>
@@ -72,9 +73,9 @@ const Privacy = () => {
         </p>
         <p className={"text-base text-neutral-800"}>
           더 나은 경험을 위해 서비스 제공자는 애플리케이션을 사용하는 동안
-          이메일, 이름, 전화번호 등 개인 식별 가능한 특정 정보를 제공하도록
-          요구할 수 있습니다. 서비스 제공자가 요청한 정보는 이 개인정보 보호
-          정책에 설명된 대로 보관되어 사용됩니다.
+          이메일, 이름, 전화번호, 주소 등 개인 식별 가능한 특정 정보를
+          제공하도록 요구할 수 있습니다. 서비스 제공자가 요청한 정보는 이
+          개인정보 보호 정책에 설명된 대로 보관되어 사용됩니다.
         </p>
       </div>
       <div className="flex flex-col gap-2">
@@ -181,6 +182,89 @@ const Privacy = () => {
             * 신뢰할 수 있는 서비스 제공업체와 함께, 당사가 공개하는 정보를
             독립적으로 사용하지 않으며 본 개인정보 보호정책에 명시된 규칙을
             준수하기로 합의했습니다.
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col gap-2">
+        <h4 className={"text-xl text-neutral-900 font-semibold"}>
+          사용자 계정 및 관련 데이터 삭제
+        </h4>
+
+        <p className={"text-base text-neutral-800"}>
+          이용자가 애플리케이션 내 기능을 통해 회원탈퇴(계정 삭제)를 요청하는
+          경우, 서비스 제공자는 계정을 즉시 비활성화하고 삭제 요청 상태로
+          전환합니다(Soft Delete).
+        </p>
+
+        <p className={"text-base text-neutral-800"}>
+          애플리케이션 내 회원탈퇴 요청 방법은 다음과 같습니다: 하단 메뉴탭에서
+          프로필 수정 화면으로 이동한 뒤, 회원탈퇴 버튼을 클릭하고 탈퇴 확인
+          팝업에서 승인을 완료하면 회원탈퇴 요청이 접수됩니다.
+        </p>
+
+        <div className={"flex justify-evenly"}>
+          <img src={"/screenShot/menu-tab.jpeg"} alt={"menu"} width={300} />
+          <img src={"/screenShot/withdraw.jpeg"} alt={"menu"} width={300} />
+        </div>
+        <div className={"flex justify-evenly"}>
+          <img
+            src={"/screenShot/withdraw-alert.jpeg"}
+            alt={"menu"}
+            width={300}
+          />
+          <img
+            src={"/screenShot/restore-account.jpeg"}
+            alt={"menu"}
+            width={300}
+          />
+        </div>
+
+        <p className={"text-base text-neutral-800"}>
+          삭제 요청을 하는 즉시 로그아웃 처리되고 삭제 요청이 접수된 시점부터
+          7일 동안은 계정 복구를 요청할 수 있으며, 이 기간 동안에는 계정이
+          비활성화된 상태로 유지됩니다.
+        </p>
+
+        <p className={"text-base text-neutral-800"}>
+          계정 복구는 아직 계정이 비활성 상태인 경우에, 로그인 화면에서
+          휴대폰번호, 비밀번호로 로그인 요청을 하는 경우, 복구 팝업이 활성화되고
+          승인하면 복구는 완료됩니다.
+        </p>
+
+        <p className={"text-base text-neutral-800"}>
+          7일의 유예기간이 경과하면, 서비스 제공자는 해당 계정 및 관련 데이터를
+          복구할 수 없도록 삭제 처리합니다.
+        </p>
+
+        <p className={"text-base text-neutral-800"}>
+          삭제 대상 데이터에는 연락처, 이름, 비밀번호, 이메일 등 계정과
+          직접적으로 연결된 개인정보가 포함되며, 서비스 제공자는 관련 법령에
+          따라 보관이 필요한 정보가 있는 경우 해당 법령이 정한 기간 동안 별도로
+          분리 보관 후 지체 없이 삭제합니다.
+        </p>
+
+        <p className={"text-base text-neutral-800"}>
+          이용자가 애플리케이션 사용이 어려운 경우 또는 추가 확인이 필요한 경우,
+          회사로 계정 삭제 및 관련 데이터 삭제를 요청할 수 있습니다.
+        </p>
+
+        <p className={"text-base text-neutral-800"}>
+          삭제 요청 방법은 다음과 같습니다.
+        </p>
+
+        <div className={"flex flex-col gap-0.5"}>
+          <p className={"text-base text-neutral-800"}>
+            * 주식회사 대은계전 Email : daeeunlab@gmail.com / Contact :
+            064-721-8446
+          </p>
+          <p className={"text-base text-neutral-800"}>
+            * 위 이메일 또는 연락처로 삭제요청을 서면 또는 구두로 할 수
+            있습니다.
+          </p>
+          <p className={"text-base text-neutral-800"}>
+            * 서면으로 요청하는 경우 별도의 양식은 없으며 내용에 연락처와 이름을
+            기입하고 사용자 계정 삭제 및 관련 데이터 삭제 요청을 한다는 내용을
+            명확하게 기재합니다.
           </p>
         </div>
       </div>

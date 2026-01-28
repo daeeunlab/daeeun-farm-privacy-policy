@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
     process.env.NODE_ENV === "production"
       ? "https://daeeunlab.github.io/daeeun-farm-privacy-policy/"
       : "",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
