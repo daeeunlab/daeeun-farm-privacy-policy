@@ -1,2 +1,2 @@
-:HL["https://daeeunlab.github.io/daeeun-farm-privacy-policy/_next/static/chunks/00bad8aaf267e575.css","style"]
-0:{"buildId":"EmXYhMR2IWPVWlfcLswlI","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+:HL["/daeeun-farm-privacy-policy/_next/static/chunks/00bad8aaf267e575.css","style"]
+0:{"buildId":"iA3AF96BrK96AVKRgqA0h","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
